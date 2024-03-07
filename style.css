@@ -1,0 +1,11 @@
+/* No necesitas cambiar nada en el CSS */
+#agua {
+    transition: y 1s;
+  }
+  
+  #agua.lleno {
+    y: 50; /* Asegúrate de que la posición y sea la misma que la del tinaco */
+    transition: y 0s; /* Para reiniciar la transición */
+  }
+  
+  
